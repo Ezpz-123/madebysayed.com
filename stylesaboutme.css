@@ -1,9 +1,10 @@
 body {
-	background-color: white;
+/*	display: flex;
+	justify-content: center;
+	align-items: center;*/
+
 }
 
-
-/*header*/
 #Top{
 	max-width: 100%;
 	height: 100px;
@@ -60,48 +61,55 @@ body {
 .filler {
 	flex-grow: 1;
 	width: 50px;
+
 }
 
-.about {
+.main {
 	margin-left: 10px; 
 	font-family: helvetica;
+
 }
 
-.about a {
+.main a {
 	text-decoration: none;
 	color: darkgray;
 
 }
 
-.about a:hover {
+.main a:hover {
 	color: black;
+
 }
 
 
-/*gallary*/
-#gallary {
-	max-width: 100%;
-	height: 700px;
-	margin: 10px auto;
-}
+#about-me-content {
+	height: 520px;
 
-
-.carousel-cell {
 	display: flex;
-	width: 66%;
-	height: 700px;
-
-}
-
-
-.carousel-cell img {
 	justify-content: center;
-	align-items: center;
-	width: 100%;
 }
 
 
-/*footer*/
+.content {
+	max-width: 600px;
+
+}
+
+
+.content p {
+	text-align: justify;
+   	text-indent: 30px;
+
+   	font-size: 18px;
+
+}
+
+.content h1 {
+	text-align: center;
+
+}
+
+
 #footer {
 	max-width: 100%;
 	height: 100px;
@@ -109,8 +117,8 @@ body {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-}
 
+}
 
 .contact img {
 	width: 25px;
@@ -121,32 +129,9 @@ body {
 	width: 28px;
 }
 
-
 .copyright-section {
 	vertical-align: center;
 	font-family: helvetica;
 	color: darkgray;
 }
 
-
-* {
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
-}
-
-
-/*additinal styles*/
-::-webkit-scrollbar {
-	width: 0.5em;
-
-}
- 
-::-webkit-scrollbar-thumb {
-	background-color: gray;
-
-}
-
-::-webkit-scrollbar-thumb:hover {
-	background-color: black;
-
-}
