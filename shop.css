@@ -1,7 +1,8 @@
 body {
 	background-color: black;
-	font-family: Times New Roman;
+	font-family: helvetica;
 }
+
 
 #Top{
 	max-width: 100%;
@@ -56,46 +57,31 @@ body {
 
 }
 
+
 .filler {
 	flex-grow: 1;
 	width: 50px;
 }
 
-.about {
-	margin-left: 10px; 
-	font-family: helvetica;
-}
-
-.about a {
-	text-decoration: none;
-	color: darkgray;
-
-}
-
-.about a:hover {
-	color: white;
-}
-
-
-.contact-info {
-	border: 1px solid red;
-	height: 520px;
+#wrapper {
+	border: 1px solid white;
+	min-height: 500px;
 
 	display: flex;
 	justify-content: center;
+	flex-wrap: wrap;
 }
 
-p {font-size: 18px;}
+.content-wrapper {
+	border: 1px solid white;
+	width: 70%;
 
-label {font-size: 14px;}
-
-.contact-info-content {
-	border: 1px solid black;
-	width: 500px;
 }
 
-.form-name div{
-	display: flex;
+.content {
+	border: 1px solid white;
+	width: 100px;
+	height: 100px;
 }
 
 #footer {
@@ -109,12 +95,12 @@ label {font-size: 14px;}
 
 
 .contact img {
-	width: 25px;
-	padding: 3px 0px 2px 3px;
+	width: 16px;
+	padding: 3px 0px 0px 3px;
 }
 
 .contact img:hover {
-	width: 28px;
+	width: 18px;
 }
 
 
@@ -122,4 +108,5 @@ label {font-size: 14px;}
 	vertical-align: center;
 	font-family: helvetica;
 	color: darkgray;
+	font-size: 12px;
 }

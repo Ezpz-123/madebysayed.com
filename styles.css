@@ -1,8 +1,12 @@
 body {
-	background-color: white;
+	background-color: black;
+	font-family: helvetica;
 }
 
-
+#wapper {
+	display: block;
+	vertical-align: center;
+}
 /*header*/
 #Top{
 	max-width: 100%;
@@ -32,7 +36,6 @@ body {
 	align-items: center;
 	flex-grow: 1;
 
-	font-family: helvetica;
 }
 
 
@@ -43,16 +46,17 @@ body {
 }
 
 
-.option {
+.option a{
+	color: darkgray;
+	text-decoration: none;
+	cursor: pointer;
 	padding: 0px 10px 0px 10px;
 	margin: 5px;
-	color: darkgray;
-
-	cursor: pointer;
+	
 }
 
-.option:hover {
-	color: black;
+.option a:hover {
+	color: white;
 
 }
 
@@ -62,26 +66,11 @@ body {
 	width: 50px;
 }
 
-.about {
-	margin-left: 10px; 
-	font-family: helvetica;
-}
-
-.about a {
-	text-decoration: none;
-	color: darkgray;
-
-}
-
-.about a:hover {
-	color: black;
-}
-
 
 /*gallary*/
 #gallary {
 	max-width: 100%;
-	height: 700px;
+	height: 500px;
 	margin: 10px auto;
 }
 
@@ -89,7 +78,7 @@ body {
 .carousel-cell {
 	display: flex;
 	width: 66%;
-	height: 700px;
+	height: 500px;
 
 }
 
@@ -113,19 +102,19 @@ body {
 
 
 .contact img {
-	width: 25px;
-	padding: 3px 0px 2px 3px;
+	width: 16px;
+	padding: 3px 0px 0px 3px;
 }
 
 .contact img:hover {
-	width: 28px;
+	width: 18px;
 }
 
 
 .copyright-section {
 	vertical-align: center;
-	font-family: helvetica;
 	color: darkgray;
+	font-size: 12px;
 }
 
 
