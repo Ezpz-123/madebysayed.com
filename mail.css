@@ -1,4 +1,5 @@
 body {
+	background-color: black;
 	font-family: Times New Roman;
 }
 
@@ -41,19 +42,19 @@ body {
 }
 
 
-.option {
+.option a{
+	color: darkgray;
+	text-decoration: none;
+	cursor: pointer;
 	padding: 0px 10px 0px 10px;
 	margin: 5px;
-	color: darkgray;
-
-	cursor: pointer;
+	
 }
 
-.option:hover {
-	color: black;
+.option a:hover {
+	color: white;
 
 }
-
 
 .filler {
 	flex-grow: 1;
@@ -72,7 +73,7 @@ body {
 }
 
 .about a:hover {
-	color: black;
+	color: white;
 }
 
 
