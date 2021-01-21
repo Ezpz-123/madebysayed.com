@@ -3,56 +3,85 @@
 <head>
 	<title>Gallary</title>
 	<meta charset="utf-8">
-	<meta description="Art gallray made by Sayed Ahmed">
+	<meta description="Art gallary made by Sayed Ahmed">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" type="text/css" href="styles.css">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="icon" href="favicon.png">
+	<script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2kok7Mb0yxpgUVvAk/HJ2jigOSYS2auk4Pfzbm7uH60=" crossorigin="anonymous"></script>
+
+	<link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+
+	<script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+
+
 </head>
 <body>
-	<section id="Top">
-		<div class="title">
-			<img src="https://d15mvavv27jnvy.cloudfront.net//b119d998d44b99079ab0d96a4e50083c.jpg">
-		</div>
-		<div class="nav-bar">
-			<div class="options">
-				<div class="option">01</div>
-				<div class="option">02</div>
-				<div class="option">03</div>
-				<div class="option">04</div>
-				<div class="option">05</div>
-				<div class="option">More</div>
+	<div id="wapper">
+		<section id="Top">
+			<div class="title">
+				<img src="sa3dlogo.png">
 			</div>
-		</div>
-		<div class="filler"></div>
-	</section>
-
- 	<section>
-		<div id="gallary">
-			<div class="gallary">
-				<div id="box"></div>
-			</div>
-
-			<div id="arrow">
-				<div class="arrow-right"> R </div>
-				<div class="arrow-left"> L </div>
-			</div>
-			<div class="gallary-detial">
-				<div class="image-title">
-					image title
+			<div class="nav-bar">
+				<div class="options">
+					<div class="option">
+						<a href="sayed-gallary.html" style=" color: white; ">MAIN</a>
+					</div>
+					<div class="option">
+						<a href="shop.html">SHOP</a>
+					</div>
+					<div class="option">
+						<a href="panting.html">PAINTING</a>
+					</div>
+					<div class="option">
+						<a href="commisions.html">COMMISIONS</a>
+					</div>
+					<div class="option">
+							<a href="aboutpage.html">ABOUT</a>
+					</div>
 				</div>
+			</div>
+			<div class="filler"></div>
+		</section>
+
+	 	<section>
+			<div id="gallary">
+				<div class="carousel" data-flickity>
+					<div class="carousel-cell">
+						<img src="image1.jpg">
+					</div>
+					<div class="carousel-cell">
+						<img src="image2.jpg">
+					</div>
+					<div class="carousel-cell">
+						<img src="image3.jpg">
+					</div>
+					<div class="carousel-cell">
+						<img src="image4.jpg">
+					</div>
+					<div class="carousel-cell">
+						<img src="image5.jpg">
+					</div>
+				</div>
+			</div>
 				
-				<div class="purchase">
-					purchase link
+		</section>
+
+		<section>
+			<div id="footer">
+				<div class="contact">
+					<a href="https://www.instagram.com/madebysayed/"> 
+						<img src="instagram.png" width="18px"></a>
+					<a href="mail.html"> 
+						<img src="mail.png" width="18px"></a>
+				</div>
+
+				<div class="copyright-section">
+					WAKE, CREATE 
 				</div>
 			</div>
-		</div>
-	</section>
-
-	<section>
-		<div id="footer">
-			footer
-		</div>
-		
-	</section>
+			
+		</section>
+	</div>
 
 </body>
 </html>
